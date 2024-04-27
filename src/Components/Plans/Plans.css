@@ -1,0 +1,73 @@
+.AddPlansPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .AddPlansPage h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #C2F851;
+    font-family: "Black Ops One";
+    font-weight: lighter;
+  }
+
+  .Name{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #C2F851;
+    font-family: "Black Ops One";
+    font-weight: lighter;
+  }
+  
+  .AddPlansPage div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .AddPlansPage label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .AddPlansPage input[type="text"],
+  .AddPlansPage textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .AddPlansPage textarea {
+    height: 100px;
+  }
+  
+  .AddPlansPage button {
+    background-color: #000; 
+    border: none;
+    color: white;
+    border: 1px solid #C2F851;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .AddPlansPage button:hover {
+    background-color: #C2F851; 
+    color: black;
+  }
+  
+  .AddPlansPage .error {
+    color: red;
+    margin-top: 10px;
+  }
+  

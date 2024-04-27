@@ -1,0 +1,29 @@
+.loginn{
+    font-size: 3rem;
+    text-align: center;
+    font-weight:normal;
+    margin-bottom: 20px;
+    color: #C2F851;
+    font-family: "Black Ops One";
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.form>input{
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #C2F851;
+    background-color: #000000;
+    color: #C2F851;
+    font-size: 1rem;
+    font-weight: lighter;
+}

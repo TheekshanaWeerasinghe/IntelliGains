@@ -1,0 +1,90 @@
+.pricing-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .pricing-container h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .pricing-container p {
+    margin-bottom: 2rem;
+    color: #C2F851;
+    font-family: "Black Ops One";
+    font-size: 3rem;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .pricing-card {
+
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #C2F851;
+    border-radius: 5px;
+    margin: 1rem;
+    text-align: center;
+    transition: all 0.5s ease-in-out; /* Add hover effect transition */
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-3px); /* Slight upward movement on hover */
+  }
+  
+  .pricing-card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .pricing-card .price {
+    font-size: 1.5rem;
+    background-color: #000;
+    border-radius: 10px;
+    color: #C2F851;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-card ul {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pricing-card li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .pricing-card .btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #C2F851;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .pricing-card .btn:hover {
+    background-color: #C2F851;
+    color: #000;
+  }
+  
+  .pricing-container .disclaimer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #C2F851;
+  }
+  

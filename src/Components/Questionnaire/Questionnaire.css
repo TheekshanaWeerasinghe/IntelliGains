@@ -1,0 +1,122 @@
+/* Questionnaire.css */
+.questionnaire-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .questionnaire-title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: #C2F851;
+    font-family: "Black Ops One";
+  }
+  
+  .questionnaire-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #C2F851;
+    background-color: #000000;
+    color: #fff;
+    outline: none;
+  }
+
+  .checkbox-group{
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border: 0.5px solid #C2F851;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    }
+  
+  .form-label {
+    color: #C2F851;
+    font-size: 1rem;
+    display: flex;
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #C2F851;
+    background-color: #000000;
+    color: #fff;
+    outline: none;
+  }
+  
+  .submit-btn {
+    color: #fff;
+    text-align: center;
+    border: 1px solid #C2F851;
+    background-color: #000;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  
+  .submit-btn:hover {
+    background-color: #C2F851;
+    color: #000;
+  }
+
+  .upload-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 500px; /* Adjust width as needed */
+    border: 1px solid #C2F851;
+    border-radius: 5px;
+  } 
+
+  .upload-image{
+    color: #fff;
+    border: 0.5px solid #C2F851;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .upload-image input[type="file"] {
+    padding: 1rem;
+    border: 1px solid #C2F851;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .image-preview {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+  
+  .image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjust image fit as needed */
+    border-radius: 5px;
+  }
+  
+  

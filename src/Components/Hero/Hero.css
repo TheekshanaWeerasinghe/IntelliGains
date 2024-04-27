@@ -1,0 +1,144 @@
+.hero{
+    color: white;
+     display: flex;
+    justify-content: space-between;
+}
+
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.right-h{
+    flex: 1;
+    position: relative;
+    background-image: url('/src/assets/wb.png');
+    background-size:cover;
+}
+
+.quote{
+    margin-bottom: 4rem;
+    background-color: #fff;
+    font-weight: bold  ;
+    border-radius: 4rem;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.quote span{
+    z-index: 2;
+}
+.quote div{
+    position:absolute;
+    background-color: #C2F851;
+     width: 5.5rem;
+     height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+.Main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family:"Black Ops One";
+    font-weight:lighter;
+    color: #fff;
+    text-overflow: inherit;
+}
+
+.Main-text>div:nth-of-type(3){
+    font-size: 1rem;
+    font: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+     width: 80%;
+     display: flex;
+     align-items: flex-start;
+}
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-of-type(1){
+    color:#C2F851;
+    font-size: 2rem;
+}
+
+.figures>div>span:nth-of-type(2){
+    color:var(--gray);
+    text-transform: uppercase;
+}
+
+.header-buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+
+.mbtn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    background-color: #000;
+    color: aliceblue;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 1px solid #C2F851;
+    border-radius: 10px;
+    transition: 300ms all;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.mbtn:hover{
+    cursor: pointer;
+    background-color: #C2F851;
+    color: #000;
+}
+
+.men-image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+
+.footer {
+    margin-top: auto;
+    color: black;
+    text-align: center; 
+    padding: 1rem; 
+    background-color: #C2F851;
+  }
+  
+
+
+/* @media  screen and (max-width: 768px){
+    .hero{
+        flex-direction: column;
+    }
+    
+} */
+

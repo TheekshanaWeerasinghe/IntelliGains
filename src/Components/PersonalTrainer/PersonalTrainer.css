@@ -1,0 +1,43 @@
+
+.personal-trainer {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto; /* Center the content horizontally */
+  text-align: center; /* Align text in the center */
+  font-family: Arial, sans-serif; /* Specify a fallback font for wider compatibility */
+}
+
+.personal-trainer h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-family: "Black Ops One";
+  font-weight: lighter; /* Emphasize the main heading */
+  color: #C2F851; /* Set the heading text color */
+}
+
+.personal-trainer p {
+  margin-bottom: 1rem;
+  line-height: 1.5; /* Adjust line spacing for better readability */
+  font-size: 1rem; /* Set the paragraph text size */
+  color: #fff; /* Set the paragraph text color for a slightly lighter tone */
+  padding-bottom: 3rem;
+}
+
+.personal-trainer h2 {
+  margin-top: 3rem;
+  font-family: "Black Ops One";
+  margin-bottom: 1rem;
+  font-size: 2rem; /* Slightly smaller heading for a clear hierarchy */
+  font-weight: lighter;
+  color: #C2F851;
+}
+
+.link{
+  color: #C2F851;
+  font-weight: bold; 
+  transition: color 0.2s ease-in-out;
+}
+
+.link:hover{
+  color: #C2F851;
+}
