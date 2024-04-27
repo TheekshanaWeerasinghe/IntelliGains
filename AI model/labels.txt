@@ -1,0 +1,3 @@
+0 fat
+1 slim
+2 thin
